@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Player Maker</string>
+    <string name="major_version">Major Version</string>
+    <string name="version">Version</string>
+    <string name="bin_file">Bin File</string>
+    <string name="json_file">Json File</string>
+    <string name="fota_enabled">Fota Enabled</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="file_write_succeeded">File write succeeded!</string>
+    <string name="file_write_failed">File write failed!</string>
+</resources>

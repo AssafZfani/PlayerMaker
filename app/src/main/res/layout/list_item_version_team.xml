@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    app:cardCornerRadius="@dimen/corner_radius"
+    app:cardElevation="7.5dp"
+    app:cardUseCompatPadding="true">
+
+    <TextView
+        android:id="@+id/tvTeamId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_frame"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold" />
+
+</androidx.cardview.widget.CardView>
